@@ -1,0 +1,1 @@
+select users.name as Nama_Programmer,COUNT(skills.name) as jumlah_skill from skills,users WHERE users.id=skills.user_id
